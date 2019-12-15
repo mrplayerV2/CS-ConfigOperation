@@ -2,7 +2,7 @@ using System;
 using System.Configuration;
 using System.Xml;
 
-internal class ConfigOperation
+public class ConfigOperation
 {
 	public static string GetConnectionString(string ConnName)
 	{
